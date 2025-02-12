@@ -1,0 +1,351 @@
+object Form8: TForm8
+  Left = 0
+  Height = 664
+  Top = 0
+  Width = 775
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Edit/Add Object'
+  ClientHeight = 664
+  ClientWidth = 775
+  DesignTimePPI = 144
+  LCLVersion = '8.2'
+  OnActivate = FormActivate
+  object ComboBox1: TComboBox
+    Left = 32
+    Height = 33
+    Top = 56
+    Width = 296
+    ItemHeight = 25
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabOrder = 0
+    OnChange = ComboBox1Change
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 25
+    Top = 16
+    Width = 65
+    Caption = 'Number'
+  end
+  object Edit1: TEdit
+    Left = 368
+    Height = 33
+    Top = 56
+    Width = 80
+    MaxLength = 5
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 368
+    Height = 25
+    Top = 16
+    Width = 84
+    Caption = 'Mnemonic'
+  end
+  object Edit2: TEdit
+    Left = 480
+    Height = 33
+    Top = 56
+    Width = 272
+    MaxLength = 19
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 480
+    Height = 25
+    Top = 16
+    Width = 90
+    Caption = 'Description'
+  end
+  object Edit3: TEdit
+    Left = 152
+    Height = 33
+    Top = 160
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+    Text = '0'
+  end
+  object Edit4: TEdit
+    Left = 152
+    Height = 33
+    Top = 232
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+    Text = '0'
+  end
+  object Edit5: TEdit
+    Left = 232
+    Height = 33
+    Top = 232
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+    Text = '0'
+  end
+  object Edit6: TEdit
+    Left = 152
+    Height = 33
+    Top = 296
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 6
+    Text = '0'
+  end
+  object Edit7: TEdit
+    Left = 232
+    Height = 33
+    Top = 296
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 7
+    Text = '0'
+  end
+  object Edit8: TEdit
+    Left = 152
+    Height = 33
+    Top = 368
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 8
+    Text = '0'
+  end
+  object Edit9: TEdit
+    Left = 232
+    Height = 33
+    Top = 368
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 9
+    Text = '0'
+  end
+  object Edit10: TEdit
+    Left = 312
+    Height = 33
+    Top = 368
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 10
+    Text = '0'
+  end
+  object Edit11: TEdit
+    Left = 152
+    Height = 33
+    Top = 432
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 11
+    Text = '0'
+  end
+  object Edit12: TEdit
+    Left = 232
+    Height = 33
+    Top = 432
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 12
+    Text = '0'
+  end
+  object Edit13: TEdit
+    Left = 312
+    Height = 33
+    Top = 432
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 13
+    Text = '0'
+  end
+  object Edit14: TEdit
+    Left = 152
+    Height = 33
+    Top = 496
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 14
+    Text = '0'
+  end
+  object Edit15: TEdit
+    Left = 232
+    Height = 33
+    Top = 496
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 15
+    Text = '0'
+  end
+  object Edit16: TEdit
+    Left = 312
+    Height = 33
+    Top = 496
+    Width = 56
+    Enabled = False
+    MaxLength = 3
+    NumbersOnly = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 16
+    Text = '0'
+  end
+  object ComboBox2: TComboBox
+    Left = 312
+    Height = 33
+    Top = 232
+    Width = 288
+    Enabled = False
+    ItemHeight = 25
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabOrder = 17
+    Text = 'ComboBox2'
+  end
+  object ComboBox3: TComboBox
+    Left = 312
+    Height = 33
+    Top = 296
+    Width = 288
+    Enabled = False
+    ItemHeight = 25
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabOrder = 18
+    Text = 'ComboBox3'
+  end
+  object CheckBox1: TCheckBox
+    Left = 32
+    Height = 29
+    Top = 164
+    Width = 68
+    Caption = 'Value'
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 19
+    OnChange = CheckBox1Change
+  end
+  object CheckBox2: TCheckBox
+    Left = 32
+    Height = 29
+    Top = 236
+    Width = 99
+    Caption = 'Position0'
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 20
+    OnChange = CheckBox2Change
+  end
+  object CheckBox3: TCheckBox
+    Left = 32
+    Height = 29
+    Top = 300
+    Width = 99
+    Caption = 'Position1'
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 21
+    OnChange = CheckBox3Change
+  end
+  object CheckBox4: TCheckBox
+    Left = 32
+    Height = 29
+    Top = 372
+    Width = 62
+    Caption = 'Data'
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 22
+    OnChange = CheckBox4Change
+  end
+  object Button1: TButton
+    Left = 312
+    Height = 30
+    Top = 584
+    Width = 81
+    Caption = 'Execute'
+    TabOrder = 23
+    OnClick = Button1Click
+  end
+  object CheckBox6: TCheckBox
+    Left = 32
+    Height = 29
+    Top = 112
+    Width = 97
+    Caption = 'Multi use'
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 24
+  end
+  object Button2: TButton
+    Left = 632
+    Height = 30
+    Top = 584
+    Width = 97
+    Caption = 'Clear'
+    TabOrder = 25
+    OnClick = Button2Click
+  end
+  object CheckBox5: TCheckBox
+    Left = 656
+    Height = 29
+    Top = 112
+    Width = 105
+    Caption = 'Not count'
+    TabOrder = 26
+  end
+end

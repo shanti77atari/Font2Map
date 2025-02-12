@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\codetyphon\fpc\fpc32\bin\i386-win32\fpc.exe" Date="1469078772"/>
+  <Params Value="-MObjFPC -Scghi -CX -O1 -XX -WG -l -vewnhibq -FiC:\Users\grupa\Documents\Typhon\edytor\lib\i386-win32 -FuC:\codetyphon\typhon\lcl\units\i386-win32\win32 -FuC:\codetyphon\typhon\lcl\units\i386-win32 -FuC:\codetyphon\typhon\components\BaseEngines\lib\i386-win32 -FuC:\codetyphon\typhon\components\BaseUtils\lib\i386-win32 -FuC:\codetyphon\typhon\packager\units\i386-win32 -FuC:\Users\grupa\Documents\Typhon\edytor\ -FUC:\Users\grupa\Documents\Typhon\edytor\lib\i386-win32\ -FEC:\Users\grupa\Documents\Typhon\edytor\ -oC:\Users\grupa\Documents\Typhon\edytor\mapa+.exe -dLCL -dadLCL -dLCLwin32 project1.ppr"/>
+</CONFIG>
