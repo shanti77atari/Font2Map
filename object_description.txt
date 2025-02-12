@@ -1,0 +1,86 @@
+TRAX wersja z 19.02.2024
+1;15;typ;0;Przeciwnicy
+2;2;typ;0;Podstawowy Przeciwnik
+5;5;typ;0;Przeciwnik Pająk
+10;10;typ;0;Przeciwnik Dracon
+15;15;typ;0;Działko strzelające w górę
+1;15;multi;0;Włącz jeśli używasz flagi do otwarcia drzwi
+1;15;value;0;Włącz
+1;15;value;1;Energia przeciwnika
+1;15;datam;9;Flaga odblokowująca drzwi/klucz\n(128+64+32)+klucz(0-23)
+1;15;pos0;0;Wyłączone
+1;15;pos1;0;Wyłączone
+1;15;data;0;Wyłączone
+16;39;typ;0;Klucze
+16;39;multi;0;Wyłączone
+16;39;value;0;Włącz jesli warunek
+16;39;value;1;Flagi 128+64+32
+16;39;pos0;0;Włączone
+16;39;pos0;1;Pozycja X otwieranego obszaru 3x3\n123\n456\n789\nX+128 poziomy obszar 4x2\n1234\n5678
+16;39;pos0;2;Pozycja Y otwieranego obszaru 3x3\n123\n456\n789\nY+128 pionowy obszar 2x4\n12\n34\n56\n78
+16;39;pos0;3;Bez znaczenia
+16;39;pos1;0;Wyłączone
+16;39;data;0;Włączone, klocki jakie pojawią się na mapie
+16;39;data;1;klocek
+16;39;data;2;klocek
+16;39;data;3;klocek
+16;39;data;4;klocek
+16;39;data;5;klocek
+16;39;data;6;klocek
+16;39;data;7;klocek
+16;39;data;8;klocek
+16;39;data;9;klocek
+64;95;typ;0;Pułapki
+64;95;multi;0;Wyłączone
+64;95;value;0;Wyłączone
+64;95;pos0;0;Czy ma się pojawić przeciwnik
+64;95;pos0;1;Pozycja X
+64;95;pos0;2;Pozycja Y
+64;95;pos0;3;Co się pojawi 1-15
+64;95;pos1;0;Czy ma się pojawić przeciwnik
+64;95;pos1;1;Pozycja X
+64;95;pos1;2;Pozycja Y
+64;95;pos1;3;Co się pojawi 1-15
+64;95;data;0;Włączone
+64;95;data;1;Energia pierwszego przeciwnika
+64;95;data;2;Energia drugiego przeciwnika
+96;96;typ;0;Miejsce startowe gracza
+96;96;multi;0;Wyłączone
+96;96;value;0;Włącz jeśli chcesz zmienić kolor gracza
+96;96;value;1;Kolor *16, kolor gracza
+96;96;pos0;0;Wyłączone
+96;96;pos1;0;Wyłączone
+96;96;data;0;Wyłączone
+97;97;typ;0;Exit, opis klocka wyjściowego
+97;97;multi;0;Wyłączone
+97;97;value;0;Wyłączone
+97;97;pos0;0;Wyłączone
+97;97;pos1;0;Wyłączone
+97;97;data;0;Włączone
+97;97;data;1;Numer linii z polem exit(0-3)
+97;97;data;2;Numer klocka exit
+125;125;typ;0;Respawn przeciwników
+125;125;multi;0;Włączone
+125;125;value;0;Włączone
+125;125;value;1;Energia respawnu
+125;125;pos0;0;Wyłączone
+125;125;pos1;0;Wyłączone
+125;125;data;0;Wyłączone
+125;125;datam;6;Typ przeciwnika (1-15) default=2
+125;125;datam;7;Szybkość respawnu (1-x) default=4
+125;125;datam;8;Energia respawnowanego obiektu
+125;125;datam;9;Flaga odblokowująca drzwi/klucz\n(128+64+32)+klucz(0-23)
+126;126;typ;0;Działko strzelające na boki
+126;126;multi;0;Wyłączone
+126;126;value;0;Włączone
+126;126;value;1;Energia działka
+126;126;pos0;0;Wyłączone
+126;126;pos1;0;Wyłączone
+126;126;data;0;Wyłączone
+127;127;typ;0;Wieża odblokowująca wyjście
+127;127;multi;0;Wyłączone
+127;127;value;0;Włączone
+127;127;value;1;Energia Wieży
+127;127;pos0;0;Wyłączone
+127;127;pos1;0;Wyłączone
+127;127;data;0;Wyłączone
